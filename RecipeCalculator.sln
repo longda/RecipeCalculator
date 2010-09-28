@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculator", "RecipeCalculator\RecipeCalculator.csproj", "{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{C66BE314-FDEE-4245-9964-AEEFE1760E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{B4463F82-9811-4A7A-A854-549618FED094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModel", "TestModel\TestModel.csproj", "{5D1A0441-8129-4A1C-99C3-8352D7440F5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E1DC19E-7A4B-4092-A637-E16E3958D6A5}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		RecipeCalculator.vsmdi = RecipeCalculator.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeCalculator", "RecipeCalculator", "{95742DCA-7FF4-434D-B603-5EA86F930E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{27FADCB1-7E04-4927-AA1A-8A3D1839C83B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{267D1463-A017-47DB-AB85-10D5B9ED304D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtility", "TestUtility\TestUtility.csproj", "{4C2519E6-C505-4DAF-B117-532819E57D72}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RecipeCalculator.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4463F82-9811-4A7A-A854-549618FED094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4463F82-9811-4A7A-A854-549618FED094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4463F82-9811-4A7A-A854-549618FED094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4463F82-9811-4A7A-A854-549618FED094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1A0441-8129-4A1C-99C3-8352D7440F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1A0441-8129-4A1C-99C3-8352D7440F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1A0441-8129-4A1C-99C3-8352D7440F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1A0441-8129-4A1C-99C3-8352D7440F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FADCB1-7E04-4927-AA1A-8A3D1839C83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FADCB1-7E04-4927-AA1A-8A3D1839C83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FADCB1-7E04-4927-AA1A-8A3D1839C83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FADCB1-7E04-4927-AA1A-8A3D1839C83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2519E6-C505-4DAF-B117-532819E57D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2519E6-C505-4DAF-B117-532819E57D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2519E6-C505-4DAF-B117-532819E57D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2519E6-C505-4DAF-B117-532819E57D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4463F82-9811-4A7A-A854-549618FED094} = {C66BE314-FDEE-4245-9964-AEEFE1760E8C}
+		{5D1A0441-8129-4A1C-99C3-8352D7440F5C} = {C66BE314-FDEE-4245-9964-AEEFE1760E8C}
+		{0DFD7B1C-5E9B-4AA6-88E2-5D6A601B29E1} = {95742DCA-7FF4-434D-B603-5EA86F930E2B}
+		{27FADCB1-7E04-4927-AA1A-8A3D1839C83B} = {267D1463-A017-47DB-AB85-10D5B9ED304D}
+		{4C2519E6-C505-4DAF-B117-532819E57D72} = {267D1463-A017-47DB-AB85-10D5B9ED304D}
+	EndGlobalSection
+EndGlobal
